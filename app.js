@@ -11,7 +11,7 @@ app.listen(port, () => {
 });
 
 const url = `https://twokaybackend.onrender.com/api/`;
-const interval = 780000; // Interval in milliseconds (13 min)
+const interval = 700000; // Interval in milliseconds (13 min)
 
 function reloadWebsite() {
   fetch(url)
